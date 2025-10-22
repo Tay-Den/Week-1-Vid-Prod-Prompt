@@ -13,7 +13,7 @@ int main()
     //collecting information for possible collaborators
     cout << "Enter your name, your ideal video project length, your ideal camera, and your favorite editing software.\n";
     cout << "\n";
-    cout << "Please seperate answers with a space.";
+    cout << "Please seperate answers with a space. If answer is two words, please add hyphen.";
     cout << "\n" << endl;
 
     cin >> Name >> LengthOfproject;
@@ -23,7 +23,7 @@ int main()
     cout << "Name: " << Name << " "
         << endl;
     //Length of project will determine suggested battery packs needed
-    cout << "Preffered length of project: " << LengthOfproject << endl;
+    cout << "Preferred length of project: " << LengthOfproject << " minutes" << endl;
     cout << "My camera: " << Camera << endl;
     cout << "My go-to editing software: " << EditingSoftware << endl;
     //Taking length of project time given and estimating extra battery packs needed for camera.
